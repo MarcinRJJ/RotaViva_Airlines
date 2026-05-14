@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    box-sizing: 0;
+    padding: 0;
+}
+
+.principal{
+    font-size: 38px;
+}
+
+.principal__destaque{
+    color: #006D5B;
+}
