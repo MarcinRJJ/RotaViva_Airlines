@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -25,7 +26,7 @@
 .logo_Inicial {
     text-decoration: none;
     display: flex; 
-    flex-direction: column; 
+    flex-direction: column;
 }
 
 .principal__destaque {
@@ -86,7 +87,7 @@
     background-color: #BDE8DC;
     color: #000000;
     padding: 40px 40px 20px 40px;
-    margin-top: 50px;
+    margin-top: 250px;
 }
 
 .footer-content {
@@ -155,21 +156,28 @@
 /* -----------------Banners chatos pá kct-------------------- */
 
 .page-body {
-    background-color: #BDE8DC;
+    background-color: #DDEAD6;
+    width: 90%;
+    height: auto;
+    min-height: 0;
+    padding: 60px 0; 
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 60px;
-    min-height: calc(100vh - 150px);
+    margin: 0 auto;
+    border-radius: 25px;
+    margin-top: 100px;
 }
 
 .intro-block {
-    background-color: #f1f8f6;
-    border-radius: 40px;
-    padding: 60px;
+    background-color: #BDE8DC; 
+    border-radius: 25px;       
+    padding: 35px;             
+    max-width: 1050px;         
+    width: 100%;               
+    margin-top: 0; 
     display: flex;
     gap: 60px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
 }
 
 
@@ -181,6 +189,9 @@
     align-self: center;
     white-space: nowrap;
 }
+
+
+
 
 
 .banners-wrapper {
@@ -195,8 +206,6 @@
     height: 480px;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-
     cursor: pointer; 
 }
 
@@ -212,7 +221,7 @@
 
 .banner-label {
     position: absolute;
-    bottom: 40px;
+    bottom: 70px;
     left: 50%;
     transform: translateX(-50%) rotate(-90deg);
     transform-origin: center center;
@@ -224,18 +233,97 @@
     white-space: nowrap;
 }
 
-.banner-plane .banner {
-    background-image: url();
+.banner_Aviões .banner {
+    background-image: url(../Imagens/Banners/large.png);
 }
 
 .banner_Ingressos .banner {
-    background-image: url();
+    background-image: url(../Imagens/Banners/Ingresso.png);
 }
 
-.banner-rental .banner {
-    background-image: url();
+.banner_Aluguel .banner {
+    background-image: url(../Imagens/Banners/viagem-de-carro-25-dicas.png);
 }
 
-.banner-hotels .banner {
-    background-image: url();
+.banner_Hoteis .banner {
+    background-image: url(../Imagens/Banners/type-entertainment-complex-popular-resort-with-pools-water-parks-turkey-with-more-than-5-million-visitors-year-amara-dolce-vita-luxury-hotel-resort-tekirova-kemer.png);
+}
+
+
+
+
+
+.secao_comentarios {
+    display: flex;
+    gap: 200px;
+    background-color: #BDE8DC;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 120px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+
+.coluna_fotos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.foto_viagem {
+    width: 320px;
+    height: 180px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.coluna_textos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.caixa_comentario {
+    background-color: #C3E6DC;
+    border: 2px solid #006D5B;
+    border-radius: 25px;
+    padding: 20px;
+    width: 350px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.topo_comentario {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 8px;
+}
+
+.dados_usuario {
+    display: flex;
+    flex-direction: column;
+}
+
+.nome_usuario {
+    color: #006D5B;
+    font-size: 18px;
+    font-family: serif;
+}
+
+.estrelas {
+    color: #D4A373;
+    font-size: 14px;
+}
+
+.texto_comentario {
+    color: #111111;
+    font-size: 14px;
+    margin: 0;
+    font-family: sans-serif;
 }
