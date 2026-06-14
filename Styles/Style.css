@@ -5,6 +5,8 @@
     font-family: sans-serif;
 }
 
+/* -----------------Header------------------------ */
+
 .header-container {
     background-color: #BDE8DC;
     display: flex;
@@ -62,6 +64,8 @@
     height: 25px
 }
 
+/* ---------------------Banner Principal--------------- */
+
 .banner_principal {
     width: 100%;
     display: flex;
@@ -75,6 +79,8 @@
     object-fit: cover;
     display: block; 
 }
+
+/* ------------Rodapé----------------- */
 
 .footer-container {
     background-color: #BDE8DC;
@@ -143,79 +149,72 @@
     padding-top: 20px;
     text-align: center;
     font-size: 12px;
-    color: #006D5B; /* Texto do copyright em verde escuro */
+    color: #006D5B;
 }
 
+/* -----------------Banners chatos pá kct-------------------- */
 
-/* Container principal do corpo para centralizar tudo */
 .page-body {
-    background-color: #BDE8DC; /* Sua cor de fundo clara */
+    background-color: #BDE8DC;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 60px;
-    min-height: calc(100vh - 150px); /* Ocupa a tela menos o footer */
+    min-height: calc(100vh - 150px);
 }
 
-/* Bloco principal arredondado */
 .intro-block {
-    background-color: #f1f8f6; /* Um verde-acinzentado ainda mais claro */
+    background-color: #f1f8f6;
     border-radius: 40px;
     padding: 60px;
     display: flex;
     gap: 60px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); /* Sombra suave para o bloco */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
 }
 
-/* Texto de Introdução */
+
 .intro-text {
     color: #006D5B;
     font-size: 32px;
     line-height: 1.4;
-    font-family: serif; /* Use a fonte Serif do seu Figma */
+    font-family: serif;
     align-self: center;
     white-space: nowrap;
 }
 
-/* Alinhamento dos quatro banners links */
+
 .banners-wrapper {
     display: flex;
     gap: 20px;
 }
 
-/* ─── A Estrutura Simplificada dos Banners ─── */
-
-/* Define o link como um bloco clicável */
 .banner-link {
     display: block;
-    text-decoration: none; /* Remove qualquer sublinhado padrão */
-    width: 160px; /* Largura do banner */
-    height: 480px; /* Altura do banner */
+    text-decoration: none;
+    width: 160px;
+    height: 480px;
     border-radius: 20px;
-    overflow: hidden; /* Garante que a imagem e texto não extrapolem */
+    overflow: hidden;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    
-    /* 👈 A MÁGICA: Muda o mouse para clicável ao passar */
+
     cursor: pointer; 
 }
 
-/* Define a seção do banner para preencher o link */
+
 .banner {
     width: 100%;
     height: 100%;
     position: relative;
     
-    /* Configurações básicas para as imagens de fundo */
     background-size: cover;
     background-position: center;
 }
 
-/* Estilo do Texto Vertical */
 .banner-label {
     position: absolute;
     bottom: 40px;
     left: 50%;
-    transform: translateX(-50%) rotate(-90deg); /* Centraliza e rotaciona */
+    transform: translateX(-50%) rotate(-90deg);
     transform-origin: center center;
     color: #FFFFFF;
     font-size: 24px;
@@ -225,21 +224,18 @@
     white-space: nowrap;
 }
 
-/* ─── Imagens de Fundo para os Banners ─── */
-/* (Mantenha as imagens que você salvou no passo anterior) */
-
 .banner-plane .banner {
-    background-image: url('Imagens/airplane_clouds.jpg');
+    background-image: url();
 }
 
 .banner_Ingressos .banner {
-    background-image: url('Imagens/Ingresso.svg');
+    background-image: url();
 }
 
 .banner-rental .banner {
-    background-image: url('Imagens/car_rental_sunset.jpg');
+    background-image: url();
 }
 
 .banner-hotels .banner {
-    background-image: url('Imagens/hotel_pool.jpg');
+    background-image: url();
 }
