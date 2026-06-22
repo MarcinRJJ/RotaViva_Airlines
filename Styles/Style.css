@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
 
 * {
     margin: 0;
@@ -32,11 +35,13 @@
 .principal__destaque {
     color: #006D5B;
     margin-left: -5px;
+    font-family: 'Exposição Playfair';
 }
 
 .principal__viva {
     color: #000000;
     margin-left: 20px;
+    font-family: 'Exposição Playfair';
 }
 
 .nav ul {
@@ -107,11 +112,12 @@
     font-size: 24px;
     margin-bottom: 12px;
     color: #000000;
+    font-family: 'Exposição Playfair';
 }
 
 .footer-logo span {
     color: #006D5B;
-}
+    font-family: 'Exposição Playfair';}
 
 .footer-col-info p {
     font-size: 14px;
@@ -156,7 +162,7 @@
 /* -----------------Banners chatos pá kct-------------------- */
 
 .page-body {
-    background-color: #DDEAD6;
+    background-color: #C8D5C2;
     width: 90%;
     height: auto;
     min-height: 0;
@@ -170,7 +176,7 @@
 }
 
 .intro-block {
-    background-color: #BDE8DC; 
+    background-color: #DDEAD6; 
     border-radius: 25px;       
     padding: 35px;             
     max-width: 1050px;         
@@ -256,7 +262,7 @@
 .secao_comentarios {
     display: flex;
     gap: 200px;
-    background-color: #BDE8DC;
+    background-color: #C8D5C2;
     justify-content: center;
     align-items: center;
     padding: 20px;
@@ -287,7 +293,7 @@
 }
 
 .caixa_comentario {
-    background-color: #C3E6DC;
+    background-color: #DDEAD6;
     border: 2px solid #006D5B;
     border-radius: 25px;
     padding: 20px;
@@ -425,12 +431,14 @@ body {
   font-size: 47px;
   font-weight: 900;
   color: #1a6b4a;
+  font-family: 'Exposição Playfair';
 }
  
 .card-logo-viva {
   font-size: 47px;
   font-weight: 900;
   color: #000000;
+  font-family: 'Exposição Playfair';
 }
  
 /* Subtítulo */
@@ -465,7 +473,7 @@ body {
 .campo-icone {
   font-size: 18px;
   color: #1a4a3a;
-  flex-shrink: 0;
+  flex-shrink: 0;   
 }
  
 .campo input {
@@ -511,4 +519,89 @@ body {
  
 .btn-entrar:hover {
   background-color: #145a3c;
+}
+
+
+
+
+
+
+
+.container_sobre {
+    width: 90%;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.bloco_apresentacao {
+    background-color: #f1f8f6;
+    padding: 40px;
+    border-radius: 25px;
+    max-width: 800px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.titulo_sobre {
+    color: #006D5B;
+    font-family: serif;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 3px solid #006D5B; /* Cria uma linha embaixo */
+    padding-bottom: 10px;
+    display: inline-block; /* Faz a linha ter o tamanho exato do texto */
+}
+
+.texto_sobre {
+    color: #333333;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.secao_diferenciais {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.caixa_diferencial {
+    background-color: #C3E6DC;
+    border: 2px solid #006D5B;
+    border-radius: 25px;
+    padding: 25px;
+    width: 240px;
+    text-align: center;
+}
+
+.icone_diferencial {
+    font-size: 36px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.subtitulo_diferencial {
+    color: #006D5B;
+    font-family: serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.descricao_diferencial {
+    color: #111111;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.foto_icone {
+    width: 50px;       /* Tamanho perfeito para um ícone discreto e elegante */
+    height: 50px;      /* Altura igual para ficar quadradinho */
+    object-fit: contain; /* Garante que o ícone não amasse, independente do formato */
+    margin-bottom: 15px; /* Empurra o título um pouquinho para baixo */
 }
